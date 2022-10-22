@@ -1,0 +1,42 @@
+button {
+    background: linear-gradient(135deg, lightBlue, skyBlue, PowderBlue, steelBlue);                                        );
+    padding: 50px;
+    border-radius: 10px;
+
+   }
+   
+   body {
+    text-align: center;
+   }
+   p {
+    background: linear-gradient(45deg, lightSalmon, khaki, honeydew);
+    padding: 75px;
+    font-size: large;
+   }
+  
+   .container{
+  display: grid;
+grid-gap: 5px;
+grid-template-areas: 
+"header header"
+"sidebar main"
+"footer footer";
+   }
+   .item{
+    background-color: #1e96ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+   }
+   .header{
+    grid-area: header;
+   }
+   .sidebar{
+    grid-area: sidebar;
+   }
+   .main{
+    grid-area: main;
+   }
+   .footer{
+    grid-area: footer;
+   }
